@@ -52,5 +52,7 @@
         <attr name="horizontalScrollEnabled" format="boolean"/>
         <attr name="allDayEventHeight" format="dimension"/>
         <attr name="scrollDuration" format="integer"/>
+        <attr name="startTime" format="integer"/>
+        <attr name="endTime" format="integer"/>
     </declare-styleable>
 </resources>

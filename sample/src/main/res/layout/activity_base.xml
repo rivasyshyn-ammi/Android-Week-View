@@ -24,6 +24,9 @@
         app:dayBackgroundColor="#05000000"
         app:todayBackgroundColor="#1848adff"
         app:headerColumnBackground="#ffffffff"
-        app:todayHeaderTextColor="@color/accent" />
+        app:todayHeaderTextColor="@color/accent"
+        app:startTime="8"
+        app:endTime="20"
+        app:showNowLine="true"/>
 
 </RelativeLayout>
