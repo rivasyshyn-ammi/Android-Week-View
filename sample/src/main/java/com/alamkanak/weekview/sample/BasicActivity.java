@@ -19,7 +19,7 @@ public class BasicActivity extends BaseActivity {
         List<WeekViewEvent> events = new ArrayList<WeekViewEvent>();
 
         Calendar startTime = Calendar.getInstance();
-        startTime.set(Calendar.HOUR_OF_DAY, 3);
+        startTime.set(Calendar.HOUR_OF_DAY, 12);
         startTime.set(Calendar.MINUTE, 0);
         startTime.set(Calendar.MONTH, newMonth - 1);
         startTime.set(Calendar.YEAR, newYear);
@@ -31,7 +31,7 @@ public class BasicActivity extends BaseActivity {
         events.add(event);
 
         startTime = Calendar.getInstance();
-        startTime.set(Calendar.HOUR_OF_DAY, 3);
+        startTime.set(Calendar.HOUR_OF_DAY, 13);
         startTime.set(Calendar.MINUTE, 30);
         startTime.set(Calendar.MONTH, newMonth-1);
         startTime.set(Calendar.YEAR, newYear);
@@ -44,7 +44,7 @@ public class BasicActivity extends BaseActivity {
         events.add(event);
 
         startTime = Calendar.getInstance();
-        startTime.set(Calendar.HOUR_OF_DAY, 4);
+        startTime.set(Calendar.HOUR_OF_DAY, 14);
         startTime.set(Calendar.MINUTE, 20);
         startTime.set(Calendar.MONTH, newMonth-1);
         startTime.set(Calendar.YEAR, newYear);
@@ -56,7 +56,7 @@ public class BasicActivity extends BaseActivity {
         events.add(event);
 
         startTime = Calendar.getInstance();
-        startTime.set(Calendar.HOUR_OF_DAY, 5);
+        startTime.set(Calendar.HOUR_OF_DAY, 7);
         startTime.set(Calendar.MINUTE, 30);
         startTime.set(Calendar.MONTH, newMonth-1);
         startTime.set(Calendar.YEAR, newYear);
@@ -68,7 +68,7 @@ public class BasicActivity extends BaseActivity {
         events.add(event);
 
         startTime = Calendar.getInstance();
-        startTime.set(Calendar.HOUR_OF_DAY, 5);
+        startTime.set(Calendar.HOUR_OF_DAY, 15);
         startTime.set(Calendar.MINUTE, 0);
         startTime.set(Calendar.MONTH, newMonth - 1);
         startTime.set(Calendar.YEAR, newYear);
