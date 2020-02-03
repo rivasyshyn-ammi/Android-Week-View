@@ -11,11 +11,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:eventTextColor="@android:color/white"
+        app:eventPaddingStart="16dp"
         app:textSize="12sp"
         app:hourHeight="90dp"
         app:minHourHeight="90dp"
         app:maxHourHeight="90dp"
-        app:headerColumnPadding="8dp"
+        app:headerColumnPadding="16dp"
         app:headerColumnTextColor="@color/toolbar_text"
         app:headerRowPadding="12dp"
         app:columnGap="8dp"
@@ -27,6 +28,7 @@
         app:todayHeaderTextColor="@color/accent"
         app:startTime="8"
         app:endTime="20"
+        app:nowLineThickness="2dp"
         app:showNowLine="true"/>
 
 </RelativeLayout>
